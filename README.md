@@ -2,6 +2,9 @@
 
 A FastAPI-powered product recommendation system with PostgreSQL backend. The system provides text-based search functionality and generates product recommendations using both content-based (text similarity) and collaborative filtering approaches.
 
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/44b04849-c5d5-47e0-bc7d-75bfdfcef78a" />
+
+
 ## Features
 
 - Text-based product search with fuzzy matching
