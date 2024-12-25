@@ -1,11 +1,10 @@
-# app/services/recommendation.py
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from sqlalchemy.orm import Session
 from typing import List, Tuple
 from app.models.product import Product
-from app.models.transaction import Transaction  # Add this import
+from app.models.transaction import Transaction  
 from app.core.config import settings
 import nltk
 from nltk.tokenize import word_tokenize
